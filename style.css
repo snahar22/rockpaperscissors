@@ -1,0 +1,48 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  font-family: sans-serif;
+  line-height: 1.3;
+  color: #E1E2E2;
+  background-color: #1D2228;
+}
+ .container {
+  width: 900px; 
+  height: 600px;
+  overflow: hidden;
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img{
+	width: 200px;
+	height: 200px;
+	padding: 10px;
+}
+img:hover{
+	border: 2px solid #FB8122;
+}
+button {
+  background: #FB8122;
+  color: #E1E2E2;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.scoreboard {
+    width: 200px;
+    margin: 15px auto;
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+    background-color: #FB8122;
+}
