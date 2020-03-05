@@ -46,7 +46,7 @@ function compareMove(){
       playerScore++;
    	  }
      else if (userChoice == "paper" && compTurn === "paper"){  
-      textChange.innerHTML = "We have a tie!  " + "</br>" +  "The chose "  + compTurn + "!";
+      textChange.innerHTML = "We have a tie!  " + "</br>" +  "The computer chose "  + compTurn + "!";
       }
       else if (userChoice == "paper" && compTurn === "rock") {
       textChange.innerHTML = "You won!" +  "</br>" +  "The computer chose " + compTurn + "!";
